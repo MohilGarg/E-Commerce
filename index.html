@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.2/tailwind.min.css">
+    </head>
+    <body>
+
+        <header class="text-gray-600 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl">Shopp</span>
+              </a>
+              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900">About Us</a>
+                <a class="mr-5 hover:text-gray-900">Go To Basket</a>
+              </nav>
+              <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+
+
+
+
+          <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://i.pinimg.com/474x/62/b0/72/62b072602f1907dbddc81a742842d8f9.jpg">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                    <h2 class="text-gray-900 title-font text-lg font-medium webItem">iPhon</h2>
+                    <p class="mt-1 Item-price">$16.00</p>
+                    <button class="flex mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded addtobasket">Add To Basket</button>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://www.notebookcheck.net/fileadmin/Notebooks/Apple/Macbook_Air_2019/Bildschirmfoto_2020_01_29_um_13.03.11.png">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                    <h2 class="text-gray-900 title-font text-lg font-medium webItem">MacB</h2>
+                    <p class="mt-1 Item-price">$21.15</p>
+                    <button class="flex mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded addtobasket">Add To Basket</button>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://images-na.ssl-images-amazon.com/images/I/41K5h7IugNL._AC_.jpg">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                    <h2 class="text-gray-900 title-font text-lg font-medium webItem">Phon</h2>
+                    <p class="mt-1 Item-price">$12.00</p>
+                    <button class="flex mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded addtobasket">Add To Basket</button>
+                  </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                  <a class="block relative h-48 rounded overflow-hidden">
+                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://www.thomann.de/thumb/opengraph/pics/prod/505317.jpg">
+                  </a>
+                  <div class="mt-4">
+                    <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                    <h2 class="text-gray-900 title-font text-lg font-medium webItem">Airpod</h2>
+                    <p class="mt-1 Item-price">$18.40</p>
+                    <button class="flex mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded addtobasket">Add To Basket</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <div class="Cart">
+            <h1>Cart</h1>
+            <span class="heading items">Items</span>
+            <span class="heading">Quantity</span>
+            <span class="heading">Price</span>
+            <div class="cart-items">
+                <div class="product">
+                    <span class="CartItemName">XBOX</span>
+                   <!-- <span class="quantity">1</span>-->
+                    <input type="number" class="quantity" min="1" value="1">
+                    <span class="price p500">$500</span>
+                    <span><button  onclick=click() class="mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded remove-items">Remove</button></span>
+                </div>  
+                <div class="product">
+                    <span class="CartItemName">Skate</span>
+                    <!--<span class="quantity">9</span>-->
+                    <input type="number" class="quantity" min="1" value="1">
+                    <span class="price p100">$100</span>
+                    <span><button class="mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded remove-items">Remove</button></span>
+                </div>
+            </div>
+            <br>
+ 
+                <span class="tprice">Total: </span>
+                <span class="total-price"></span>
+ 
+            <div class="purchase">
+                <button class="mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=OfficialRickAstley" target="_blank">Purchase</a></button>
+            </div>
+        </div>
+
+
+    </body>
+    <script src="script.js"></script>
+</html>

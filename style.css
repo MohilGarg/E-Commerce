@@ -1,0 +1,47 @@
+.cart h1{
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+}
+    
+.cart .heading{
+    margin-right:20rem;
+    font-size: 30px;
+    font-weight: bolder;
+}
+    
+.quantity{
+    margin-left:20rem;
+}
+    
+.price{
+    margin-left:20rem;
+}
+    
+.remove-items{
+    margin-left:10rem;
+}
+    
+.product{
+    margin-bottom: 1rem;
+}
+
+.purchase{
+    padding: 10px;
+}
+
+.total-price{
+    padding: 10px;
+}
+
+.tprice{
+    padding: 10px;
+}
+  
+.items{
+    padding-left: 10px;
+}
+
+.cart-items{
+    padding: 10px;
+}
